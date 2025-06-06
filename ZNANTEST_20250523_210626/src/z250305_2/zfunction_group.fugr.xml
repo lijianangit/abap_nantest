@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ZFUNCTION_group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFUNCTION_GROUPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFUNCTION_GROUP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_RFC_TEST</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>测试远程方法调用</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_P1</PARAMETER>
+       <DEFAULT>5</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_P2</PARAMETER>
+       <DEFAULT>5</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_P1</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_P1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>参数1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_P2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>参数2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_P1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>返回值</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

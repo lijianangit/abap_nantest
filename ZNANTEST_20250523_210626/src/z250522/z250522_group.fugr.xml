@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>z250522_group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ250522_GROUPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ250522_GROUP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMM002_PO_WERKS_CHECK</FUNCNAME>
+     <SHORT_TEXT>zmm002_po_werks_check</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZPP002_PRD_AT_SAVE_CALL14</FUNCNAME>
+     <SHORT_TEXT>ZPP002_PRD_AT_SAVE_CALL14</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

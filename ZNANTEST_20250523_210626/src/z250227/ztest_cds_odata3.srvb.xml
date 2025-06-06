@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRVB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SRVB>
+    <METADATA>
+     <NAME>ZTEST_CDS_ODATA3</NAME>
+     <DESCRIPTION>ZTEST_CDS_ODATA3</DESCRIPTION>
+    </METADATA>
+    <CONTENT>
+     <BIND_TYPE_IMPL>
+      <NAME>ZTEST_CDS_ODATA3</NAME>
+     </BIND_TYPE_IMPL>
+     <BIND_TYPE>ODATA</BIND_TYPE>
+     <BIND_TYPE_VERSION>V2</BIND_TYPE_VERSION>
+     <SERVICES>
+      <item>
+       <SERVICE_NAME>ZTEST_CDS_ODATA3</SERVICE_NAME>
+       <SERVICE_CONTENT>
+        <item>
+         <SERVICE_VERSION>0001</SERVICE_VERSION>
+         <SRVD_REF>
+          <URI>/sap/bc/adt/ddic/srvd/sources/ztest_cds_odata</URI>
+          <TYPE>SRVD/SRV</TYPE>
+          <NAME>ZTEST_CDS_ODATA</NAME>
+         </SRVD_REF>
+        </item>
+        <item>
+         <SERVICE_VERSION>0002</SERVICE_VERSION>
+         <SRVD_REF>
+          <URI>/sap/bc/adt/ddic/srvd/sources/z_projection_cds_defination</URI>
+          <TYPE>SRVD/SRV</TYPE>
+          <NAME>Z_PROJECTION_CDS_DEFINATION</NAME>
+         </SRVD_REF>
+        </item>
+       </SERVICE_CONTENT>
+      </item>
+     </SERVICES>
+    </CONTENT>
+    <PUBLISHED>true</PUBLISHED>
+   </SRVB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

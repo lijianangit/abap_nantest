@@ -1,0 +1,17 @@
+
+managed implementation in class zbp_nantest_rap1_cds unique;
+define behavior for znantest_rap1_cds alias Travel
+persistent table znantest_rap1
+etag last_changed_at
+lock master
+{
+  // semantic key is calculated in a determination
+  field ( readonly ) last_changed_at, last_changed_by, created_at, created_by;
+  // mandatory fields that are required to create a travel
+  field ( mandatory ) agency_id, booking_fee, currency_code;
+  // mandatory fields that are required to create a travel
+  field ( features : instance ) travel_id;
+  // standard operations for travel entity
+  create;
+  update;
+  delete; }

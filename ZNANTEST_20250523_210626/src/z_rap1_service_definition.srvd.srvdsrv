@@ -1,0 +1,9 @@
+@EndUserText.label: 'z_rap1_service_definition'
+define service Z_rap1_service_definition {
+  expose Z_RAP1_PROJECTION_CDS as TravelProcessor;
+  expose /DMO/I_Customer as Passenger;
+  expose /DMO/I_Agency as TravelAgency;
+  expose /DMO/I_Airport as Airport;
+  expose I_Currency as Currency;
+  expose I_Country as Country;
+}

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z250506_CLASS_1</ARBGB>
+    <MASTERLANG>1</MASTERLANG>
+    <STEXT>消息类</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>Z250506_CLASS_1</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>nantest消息类000</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>Z250506_CLASS_1</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>nantest消息类001</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

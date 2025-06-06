@@ -1,0 +1,14 @@
+projection;
+
+define behavior for ZC_TRAVEL_projection_000 alias TravelProcessor
+//实时更新数据
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+
+  use action acceptTravel;
+
+}

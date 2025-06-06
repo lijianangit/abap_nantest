@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>z_test_rap</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_TEST_RAPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_TEST_RAP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_TEST_RAP_1</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>z_test_rap_1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IN_AGE1</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IN_AGE2</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>SUM_AGE</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IN_AGE1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>年龄1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IN_AGE2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>年龄2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SUM_AGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>年龄之和</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

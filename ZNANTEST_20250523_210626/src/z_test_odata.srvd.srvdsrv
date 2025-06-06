@@ -1,0 +1,4 @@
+@EndUserText.label: 'z_test_odata'
+define service Z_test_odata {
+  expose Z_tab2_cds;
+}
